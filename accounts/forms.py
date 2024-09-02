@@ -34,3 +34,14 @@ class LoginForm(forms.Form):
         if not user:
             raise forms.ValidationError("Invalid login credentials")
         return self.cleaned_data
+
+class UserUpdateForm(forms.ModelForm):
+    class Meta:
+        model = User
+        fields = ['email', 'username', 'gender']
+
+    def save(self, commit=True):
+        user = super().save(commit=False)
+        if commit:
+            user.save()
+        return user

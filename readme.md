@@ -22,8 +22,7 @@
 3. Django 프로젝트 생성:
 
     ```bash
-    django-admin startproject myproject
-    cd myproject
+    django-admin startproject config .
     ```
 
 4. Django 앱 생성:

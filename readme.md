@@ -154,3 +154,9 @@
 
 
 #### 참고 자료https://codemonkyu.tistory.com/entry/Djnago-Django-rest-framework-%ED%99%9C%EC%9A%A9%ED%95%98%EC%97%AC-API-%EC%84%9C%EB%B2%84-%EB%A7%8C%EB%93%A4%EA%B8%B0
+
+
+
+
+
+form 사용할때 쓰는 부트스트랩 주소 : https://getbootstrap.com/docs/5.1/getting-started/download/

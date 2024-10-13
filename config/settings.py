@@ -41,9 +41,6 @@ INSTALLED_APPS = [
     
     #추가한 프레임워크
     "rest_framework",
-    
-    #추가한 앱
-    "pybo",
 ]
 
 MIDDLEWARE = [

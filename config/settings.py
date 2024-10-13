@@ -38,6 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    #추가한 프레임워크
+    "rest_framework",
+    
+    #추가한 앱
+    "pybo",
 ]
 
 MIDDLEWARE = [

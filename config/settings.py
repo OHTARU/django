@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+LOGIN_REDIRECT_URL = '/'
 
 # Application definition
 
@@ -41,6 +42,8 @@ INSTALLED_APPS = [
     
     #추가한 프레임워크
     "rest_framework",
+    
+    "common",
 ]
 
 MIDDLEWARE = [

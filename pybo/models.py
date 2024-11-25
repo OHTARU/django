@@ -1,5 +1,6 @@
-from django.db import models
 from django.contrib.auth.models import User
+from django.db import models
+
 
 class Question(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -18,4 +19,3 @@ class Answer(models.Model):
     content = models.TextField()
     create_date = models.DateTimeField()
     modify_date = models.DateTimeField(null=True, blank=True)
-
